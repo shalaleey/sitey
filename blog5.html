@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DPPM Blog 1</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #fafafa;
+            color: #333;
+        }
+
+        .accent-dot {
+            width: 8px;
+            height: 8px;
+            background: #e88ca7;
+            border-radius: 9999px;
+            display: inline-block;
+        }
+
+        a:hover {
+            color: #e88ca7;
+        }
+
+        img.rounded-shadow {
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+    </style>
+</head>
+
+<body class="min-h-screen">
+
+    <!-- NAV -->
+    <nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-pink-200">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="font-semibold text-lg">DPPM Blog 1</h1>
+            <div class="hidden md:flex space-x-6 text-sm">
+                <a href="home.html" class="hover:text-pink-600">Home</a>
+                <a href="home.html#blogs" class="hover:text-pink-600">Blogs</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-28 max-w-4xl mx-auto px-6 space-y-12">
+
+        <!-- BLOG HEADER -->
+        <header class="text-center space-y-4">
+            <h1 class="text-4xl font-semibold">Reflections on the University’s Online Enrolment System</h1>
+            <p class="text-gray-600">January 22, 2026 | Thursday</p>
+            <div class="flex justify-center space-x-2">
+                <div class="accent-dot animate-pulse"></div>
+                <div class="accent-dot animate-pulse"></div>
+                <div class="accent-dot animate-pulse"></div>
+            </div>
+        </header>
+
+        <!-- BLOG CONTENT -->
+        <article class="space-y-6 text-gray-700 text-justify leading-relaxed">
+            <p class="text-gray-600 leading-relaxed text-justify mb-4">
+                One of the primary advantages of the university’s new online enrolment system is the level of
+                convenience
+                and accessibility it provides. Students are able to complete the enrolment process online without the
+                need
+                to physically line up at enrolment offices, making the process more efficient and manageable. This
+                feature
+                is particularly beneficial for students who balance academic responsibilities with other commitments.
+            </p>
+
+            <p class="text-gray-600 leading-relaxed text-justify mb-4">
+                In addition, the system follows a step-by-step enrolment process that clearly guides students throughout
+                each stage. By indicating the current step in the enrolment flow, the system minimizes confusion and
+                helps
+                prevent important actions from being overlooked. For students who are using the platform for the first
+                time, this structured approach contributes to a smoother and less overwhelming experience.
+            </p>
+
+            <p class="text-gray-600 leading-relaxed text-justify mb-4">
+                Another notable feature of the system is the ability for students to review the subjects they have
+                successfully enrolled in for the current semester. This allows students to immediately verify their
+                course
+                selections upon completion of the enrolment process. Having access to this information promotes clarity
+                and provides reassurance that enrolment has been completed correctly.
+            </p>
+
+            <p class="text-gray-600 leading-relaxed text-justify mb-4">
+                Despite these advantages, certain limitations were also observed during actual use of the system. One
+                significant limitation is the absence of information regarding the assigned instructor for each enrolled
+                subject. Although the system displays details such as subject title, schedule, and room assignment, it
+                does
+                not indicate who will be handling the course.
+            </p>
+
+            <p class="text-gray-600 leading-relaxed text-justify mb-4">
+                The lack of instructor information may affect students’ ability to make fully informed decisions during
+                enrolment. Some students prefer to be aware of their instructors in advance, and without this
+                information,
+                uncertainty may arise. As a result, students may need to seek additional clarification through other
+                platforms or academic offices after completing enrolment.
+            </p>
+
+            <p class="text-gray-600 leading-relaxed text-justify mb-4">
+                In response to these limitations, several improvements may be considered to enhance the overall
+                enrolment
+                experience. One key improvement would be the inclusion of instructor or course handler information
+                within
+                the online enrolment system. Providing this information would allow students to make more informed
+                choices
+                and feel more confident about their enrolled subjects.
+            </p>
+
+            <p class="text-gray-600 leading-relaxed text-justify mb-4">
+                From the perspective of an IT/CS student, the absence of instructor details indicates a potential gap in
+                data integration within the system. Although instructor information exists within faculty or academic
+                records, it is not reflected in the enrolment interface. Integrating this data would improve information
+                completeness and support more effective use of existing academic databases.
+            </p>
+
+            <p class="text-gray-600 leading-relaxed text-justify mb-4">
+                Furthermore, enhancing the presentation of course-related information could improve overall usability.
+                Organizing details such as instructor name, schedule, and room assignment in a clear and structured
+                manner
+                would make the system easier to navigate. From an IT/CS standpoint, these enhancements emphasize the
+                importance of user-centered design, efficient data management, and seamless system integration in
+                academic
+                platforms.
+            </p>
+
+            <!-- CONCLUSION -->
+            <p class="text-gray-600 leading-relaxed text-justify mt-6">
+                In conclusion, the university’s online enrolment system offers meaningful advantages in terms of
+                convenience, organization, and accessibility for students. However, addressing limitations such as the
+                absence of instructor information would further strengthen transparency and user confidence. By applying
+                IT/CS principles to improve data integration and interface design, the system can continue to evolve
+                into
+                a more effective and student-centered enrolment platform.
+            </p>
+        </article>
+
+        <!-- BACK TO BLOGS LINK -->
+        <div class="text-center mt-12">
+            <a href="home.html#blogs"
+                class="inline-block bg-gradient-to-r from-pink-500 to-rose-500 text-white px-6 py-3 rounded-xl shadow-md hover:opacity-90 transition">
+                ← Back to Blogs
+            </a>
+        </div>
+
+    </main>
+
+    <footer class="text-center text-sm text-gray-500 py-12">
+        © 2025 | Shalleey
+    </footer>
+
+</body>
+
+</html>
